@@ -11,7 +11,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        return "Esta es la página de Post";
+        return view('posts.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        return "Aquí crearemos";
+        return view('posts.create');
     }
 
     /**
@@ -35,7 +35,7 @@ class PostController extends Controller
      */
     public function show(string $post)
     {
-        return "Aquí se mostrara el post {$post}";
+        return view('posts.show', compact('post') );
     }
 
     /**
