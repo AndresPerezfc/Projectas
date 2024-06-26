@@ -1,3 +1,5 @@
+@extends('layout.app')
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +21,9 @@
             Contenido de la alerta
         </x-alert>
     </div>
+
+    @yield('content')
+
 
 
 </body>
