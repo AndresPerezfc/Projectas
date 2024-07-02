@@ -20,6 +20,10 @@
             </x-slot>
             Contenido de la alerta
         </x-alert>
+
+        <x-alert2>
+        Contenido de la alerta
+        </x-alert2>
     </div>
 
     @yield('content')
