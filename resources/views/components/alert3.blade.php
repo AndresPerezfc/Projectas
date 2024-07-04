@@ -1,5 +1,5 @@
 <div>
 <div class="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
-    <span class="font-medium">{{$title ?? 'info Alert'}}</span> {{$slot}}
+    <span class="font-medium">{{$title ?? 'Este es el tercer componente'}}</span> {{$slot}}
 </div>
 </div>
